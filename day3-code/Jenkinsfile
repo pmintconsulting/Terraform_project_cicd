@@ -15,6 +15,7 @@ pipeline {
             when { branch 'feature/2025.11.19' }
             steps {
                 echo "hello world new"
+                dir('day3-code') {
                // git url: 'https://github.com/redashu/terraform_BOA_test.git', branch: 'master'
                 sh 'ls -a'
             }
@@ -25,9 +26,13 @@ pipeline {
             }   
             steps {
                 echo "hello world new data"
+                dir('day3-code') {
+                    sh 'terraform init'
+                }
             // git url: 'https://github.com/redashu/terraform_BOA_test.git', branch: 'dev'
-                sh 'terraform init'
-                sh 'terraform plan'
+                dir('day3-code') {
+                    sh 'terraform plan'
+                }
             }
         }
     }
