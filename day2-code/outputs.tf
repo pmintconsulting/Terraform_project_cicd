@@ -15,6 +15,6 @@ output "sunil-ws-instance-state" {
 }
 
 resource "local_file" "sunil-ws-public-ip" {
-  content = aws_instance.example.public_ip
+  content  = aws_instance.example.public_ip
   filename = "${path.module}/myip.txt"
 }

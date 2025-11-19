@@ -19,7 +19,7 @@ variable "my_aws_region" {
   #default = "us-east-1"
 }
 
-variable "private_key_name" {
+variable "my_private_key_name" {
   type = string
   #default = "splunk-key"
 }
