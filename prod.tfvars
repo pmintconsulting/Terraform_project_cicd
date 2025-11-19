@@ -1,0 +1,6 @@
+my-os-image         = "ami-0cae6d6fe6048ca2c"
+machine_size        = "t2.nano"
+my_aws_region       = "us-east-1"
+my_private_key_name = "splunk-key"
+vm_name             = "sunil-ws-newname-final-prod"
+novm                = 2

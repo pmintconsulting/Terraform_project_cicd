@@ -5,3 +5,7 @@ day2-code/.terraform/providers/registry.terraform.io/hashicorp/aws/6.21.0/linux_
 day2-code/.terraform/providers/registry.terraform.io/hashicorp/aws/6.21.0/linux_amd64/terraform-provider-aws_v6.21.0_x5
 day2-code/.terraform/providers/registry.terraform.io/hashicorp/local/2.6.1/linux_amd64/LICENSE.txt
 day2-code/.terraform/providers/registry.terraform.io/hashicorp/local/2.6.1/linux_amd64/terraform-provider-local_v2.6.1_x5
+.terraform.lock.hcl
+.terraform/terraform.tfstate
+.terraform/providers/registry.terraform.io/hashicorp/aws/6.21.0/linux_amd64/LICENSE.txt
+.terraform/providers/registry.terraform.io/hashicorp/aws/6.21.0/linux_amd64/terraform-provider-aws_v6.21.0_x5
