@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "boa-sunil-terraform-bucket"
-    key = "code/sunil/terraform.tfstate"
-    encrypt = true
-    region = "us-east-1"
+    bucket         = "boa-sunil-terraform-bucket"
+    key            = "code/sunil/terraform.tfstate"
+    encrypt        = true
+    region         = "us-east-1"
     dynamodb_table = "sunil-lock-table"
   }
 }
